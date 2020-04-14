@@ -1,4 +1,5 @@
-<div class="card widget">
+<% if (site.tags.length) { %>
+<div class="card widget is-hidden-mobile">
     <div class="card-content">
         <h3 class="menu-label">
             <%= __('widget.tag_cloud') %>
@@ -6,3 +7,4 @@
         <%- tagcloud() %>
     </div>
 </div>
+<% } %>
