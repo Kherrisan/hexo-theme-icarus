@@ -180,6 +180,8 @@ widgets:
         position: right
         # Links to be shown in the links widget
         links:
+            Leetcode: 'https://leetcode.kherrisan.cn'
+            ASL: 'https://asl.kherrisan.cn'
             Hexo: 'https://hexo.io'
             PPOffice: 'https://github.com/ppoffice'
 # Other plugin settings
