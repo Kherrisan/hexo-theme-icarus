@@ -1,13 +1,13 @@
 # Version of the Icarus theme that is currently used
 version: 2.8.1
 # Path or URL to the website's icon
-favicon: http://oss.kherrisan.cn/logo.jpg
+favicon: https://oss.kherrisan.cn/logo.jpg
 # Additional HTML meta tags in an array.
 meta: 
 # Path or URL to RSS atom.xml
 rss: 
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
-logo: http://oss.kherrisan.cn/logo.jpg
+logo: https://oss.kherrisan.cn/logo.jpg
 # Open Graph metadata
 # https://hexo.io/docs/helpers.html#open-graph
 open_graph:
@@ -134,7 +134,7 @@ widgets:
         # Author's current location
         location: 中国-江苏-常州
         # Path or URL to the avatar to be shown in the profile widget
-        avatar: http://oss.kherrisan.cn/logo.jpg
+        avatar: https://oss.kherrisan.cn/logo.jpg
         # Email address for the Gravatar to be shown in the profile widget
         gravatar: 
         # Whether to show avatar image rounded or square
