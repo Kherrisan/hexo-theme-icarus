@@ -136,8 +136,6 @@ img.thumbnail
         margin-top: 0
     .menu-list li ul
         margin-right: 0
-    .menu-list a
-        transition: background-color 0.3s ease-in-out
     .menu-list a.level
         display: flex
     .has-text-centered figure.image
@@ -515,3 +513,65 @@ figure.highlight
 .article h2:before{content:counter(section) " ";counter-increment:section}
 .article h3:before{content:counter(section) "." counter(sub-section) " ";counter-increment:sub-section}
 .article h4:before{content:counter(section) "." counter(sub-section) "." counter(composite) " ";counter-increment:composite}
+
+#hitokoto {
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.card:hover{
+    background-color: #deeafb;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05), 0 0 1px rgba(0,0,0,0.1);
+}
+
+.content blockquote {
+  background-color: #f5f5f5;
+  border-left: 3px solid #6190e8;
+  padding: 1em 1em;
+  overflow: auto;
+}
+.content h1 {
+  font-size: 2em;
+  color: rgba(50,115,220,0.659);
+}
+.content h5 {
+  color: rgba(50,115,220,0.659);
+}
+.content h2 {
+  font-size: 1.8em;
+  color: rgba(50,115,220,0.659);
+}
+.content h3 {
+  font-size: 1.3em;
+  color: rgba(50,115,220,0.659);
+}
+.content h4 {
+  font-size: 1.2em;
+  color: rgba(50,115,220,0.659);
+}
+.content h5 {
+  color: rgba(50,115,220,0.659);
+}
+
+a {
+  color: #3273dc;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #363636;
+}
+
+.button.is-transparent {
+  background: transparent !important;
+}
+
+hr {
+  background-color: #f5f5f5;
+  border: none;
+  display: block;
+  height: 2px;
+  margin: 1.5rem 0;
+}
