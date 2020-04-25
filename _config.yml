@@ -5,7 +5,7 @@ favicon: https://oss.kherrisan.cn/logo.jpg
 # Additional HTML meta tags in an array.
 meta: 
 # Path or URL to RSS atom.xml
-rss: 
+rss: atom.xml
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
 logo: https://oss.kherrisan.cn/logo.jpg
 # Open Graph metadata
@@ -146,9 +146,6 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: 'https://github.com/Kherrisan'
-            QQ:
-                icon: fab fa-qq
-                url: ''
             Wechat:
                 icon: fab fa-weixin
                 url: ''
@@ -158,6 +155,9 @@ widgets:
             Twitter:
                 icon: fab fa-twitter
                 url: 'https://twitter.com'
+            RSS:
+                icon: far fa-twitter
+                url: 'atom.xml'
     -
         # Widget name
         type: toc
